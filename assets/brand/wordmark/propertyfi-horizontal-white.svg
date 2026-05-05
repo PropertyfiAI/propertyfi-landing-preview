@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 64" fill="none">
+  <defs>
+    <linearGradient id="pfw-top" x1="32" y1="8" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#DDD6FE"></stop>
+      <stop offset="1" stop-color="#A78BFA"></stop>
+    </linearGradient>
+    <linearGradient id="pfw-left" x1="8" y1="24" x2="32" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7C3AED"></stop>
+      <stop offset="1" stop-color="#5B21B6"></stop>
+    </linearGradient>
+    <linearGradient id="pfw-right" x1="56" y1="24" x2="32" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A78BFA"></stop>
+      <stop offset="1" stop-color="#7C3AED"></stop>
+    </linearGradient>
+  </defs>
+  <g>
+    <path d="M8 20 L32 32 L32 58 L8 46 Z" fill="url(#pfw-left)"></path>
+    <path d="M56 20 L32 32 L32 58 L56 46 Z" fill="url(#pfw-right)"></path>
+    <path d="M32 6 L56 20 L32 32 L8 20 Z" fill="url(#pfw-top)"></path>
+    <path d="M32 32 L32 58 M8 20 L32 32 L56 20" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="0.8" stroke-linejoin="round"></path>
+    <circle cx="32" cy="6" r="3.5" fill="#FFFFFF"></circle>
+    <circle cx="32" cy="6" r="2" fill="#7C3AED"></circle>
+  </g>
+  <text x="80" y="41" font-family="Space Grotesk, system-ui, sans-serif" font-size="26" font-weight="500" letter-spacing="-0.9" fill="#FFFFFF">Propertyfi<tspan fill="#A78BFA">.</tspan></text>
+</svg>
